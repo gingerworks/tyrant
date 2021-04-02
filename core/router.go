@@ -5,6 +5,10 @@ import (
 	"net/http"
 )
 
+type RouteURL struct {
+
+}
+
 func RegisterRoutes(mux *http.ServeMux)  {
   mux.HandleFunc("/", indexHandler)
 }
